@@ -30,7 +30,7 @@ function setCenter(lat,lng)
     marker.setMap(null)
     var mp = new kakao.maps.LatLng(lat,lng)
     map.setCenter(mp)
-    marker = new kakao.maps.Maker({position:mp})
+    marker = new kakao.maps.Marker({position:mp})
     marker.setMap(map)
 }    
     
